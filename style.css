@@ -1,0 +1,107 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    /* text-align: center; */
+}
+
+fieldset {
+    align-self: center;
+}
+
+/* Styling the input conatiner */
+.input-container{
+    display: flex;
+    width: 100%;
+    margin-bottom: 15px;
+}
+/* Styling the form icons */
+.icon{
+    padding: 10px;
+    background: maroon;
+    color: white;
+    min-width: 50px;
+    text-align: center;
+}
+/* Styling the input fields */
+.input-field{
+    width: 100%;
+    padding: 10px;
+    outline: none;
+}
+
+.input-field:focus{
+    border: 2px solid maroon;
+}
+/* Set a style for the submit button */
+.btn {
+    background-color: maroon;
+    color: white;
+    padding: 15px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+  }
+  
+.btn:hover {
+    opacity: 1;
+  }
+
+  legend {
+    background-color: gray;
+    color: white;
+    padding: 5px 10px;
+    font-weight: 900;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  b{
+    color: darkgreen;
+  }
+  fieldset{
+    background-color: rgb(165, 152, 173);
+  }
+  input[type=radio] {
+    display: none;
+    }
+    
+    label.radio {
+    position: relative;
+    display: inline-block;
+    padding-top: 4px;
+    margin-right: 20px;
+    text-indent: 30px;
+    overflow: visible;
+    cursor: pointer;
+    padding-bottom:2px;
+    
+    }
+    label.radio:before {
+    content: "";
+    position: absolute;
+    top: 2px;
+    left: 0;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: maroon;
+    }
+    label.radio:after {
+    content: "";
+    position: absolute;
+    width: 9px;
+    height: 4px;
+    top: 8px;
+    left: 4px;
+    border: 3px solid #fff;
+    border-top: none;
+    border-right: none;
+    transform: rotate(-45deg);
+    opacity: 0;
+    }
+    input[type=radio]:checked + label:after {
+    opacity: 1;
+    }
+    .gender{
+      font-size:20px;
+    }
